@@ -12,6 +12,10 @@ I have created a component of card in Component folder and made a Content.js fil
 Props are arguments passed into React components.
 Props are passed to components via HTML attributes.
 
+In simple words props are the properties we pass in a React Component while calling it and we pass this property via HTML attributes.
+
+For example refer to the App.js file.
+
 **props stands for properties**
 
 Array.map()

@@ -5,13 +5,14 @@ import Content from './Component/content'
 function App() {
   return (
     <div className='element'>
-      <h1>A Lovely Project</h1>
+      <h1>A Dome Card Project</h1>
       {Content.map((val) => {
         return (<Card
-        imgsrc = {val.imgsrc}
-        name = { val.name }
-        des = { val.description }
-        btn = { val.btn }/>
+          imgsrc = {val.imgsrc}
+          name = { val.name }
+          des = { val.description }
+          btn = { val.btn }
+        />
         );
       })}
     </div>
